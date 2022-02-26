@@ -5,9 +5,9 @@ GitOps pattern for Kubernetes using ArgoCD, sealed-secrets, Helmfile, Kustomize,
 
 # Provision a Kubernetes cluster
 
-We're using `prov` - a Python module to provision EKS clusters
+We're using `cprov` - a Python module to provision EKS clusters
 
 ```
-pip install prov
-prov do eks
+pip install cprov
+cprov do eks
 ```
